@@ -1,6 +1,6 @@
 {
   "name": "react-webfont-cryptocoins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Component wrapper around cryptocoins (https://github.com/AllienWorks/cryptocoins) using webfonts",
   "author": "keyvanm",
   "license": "MIT",
