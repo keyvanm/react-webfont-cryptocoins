@@ -1,0 +1,8 @@
+{
+  "short_name": "react-webfont-cryptocoins",
+  "name": "react-webfont-cryptocoins",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
