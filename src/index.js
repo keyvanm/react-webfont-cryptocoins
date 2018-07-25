@@ -1,22 +1,8 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
 
-import styles from './styles.css'
+import 'cryptocoins-icons/webfont/cryptocoins.css'
+import 'cryptocoins-icons/webfont/cryptocoins-colors.css'
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
-
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+export default ({ coin }) => (
+  <i className={`cc ${coin}`} title={coin}></i>
+)
