@@ -15,12 +15,12 @@ npm install --save react-webfont-cryptocoins
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-webfont-cryptocoins'
+import CryptoIcon from 'react-cryptocoins'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <CryptoIcon coin="BTC" />
     )
   }
 }
